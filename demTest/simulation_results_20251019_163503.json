@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "export_time": "2025-10-19T16:35:07.599234",
+    "simulation_mode": "single_point",
+    "scene": "complex_terrain",
+    "yolo_files": [
+      "result-1-_png.rf.6ad4c1b9d6211f59f2099e71bd39b746.txt",
+      "result-1-_png.rf.557b7a97fa1eacc043eaa2c9f54b7d5b.txt",
+      "result-1-_png.rf.1625ca86652d71694d00111fec724722.txt",
+      "result-2-_png.rf.7ccad96087a2f547ab3752b58d91fcd7.txt",
+      "result-2-_png.rf.a096edf3447bd139cc32b0e4d9a26376.txt",
+      "result-2-_png.rf.e440895a1afc2a9f93fd03b991b2efce.txt",
+      "result-4-_png.rf.6eeb45673b9a3fbc5cba9ae78fac27f6.txt",
+      "result-4-_png.rf.e47a30e3265f850f01a2e7d188e8eca3.txt",
+      "result-4-_png.rf.eb83951af5ac5682b2a156cf11f2aa64.txt",
+      "result-7-_png.rf.3ecce62bd0cd3de38f951c74598e5d7b.txt"
+    ],
+    "max_detections_per_file": 1,
+    "reference_elevation_mode": "camera_nadir"
+  },
+  "overall_statistics": {
+    "count": 1,
+    "rmse": 62.195999894089624,
+    "mean": 62.195999894089624,
+    "max": 62.195999894089624,
+    "min": 62.195999894089624,
+    "std": 0.0
+  },
+  "file_statistics": {},
+  "results": [
+    {
+      "pixel": [
+        1360,
+        710
+      ],
+      "slope_projection": 

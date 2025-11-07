@@ -1,0 +1,7 @@
+{
+    "camera_intrinsics": {
+      "focal_length_px": 3959.5,
+      "sensor_size_px": [4000, 3000],
+      "principal_point_px": [2000, 1500]
+    }
+}

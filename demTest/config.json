@@ -1,0 +1,50 @@
+{
+  "scenario_name": "Trajectory_Analysis_Flight_01",
+  "mode": "large_world",
+
+  "data_paths": {
+    "dem_file": "./data/complex_virtual_dem.tif",
+    "dem_large_file": "./data/large_virtual_dem.tif",
+    "camera_params_file": "./data/camera_config.json",
+    "yolo_dataset_dir": "deadtree.v3i.yolov11/train"
+  },
+
+  "yolo_input_settings": {
+    "image_filename": "result-52-_png.rf.10c316eff8f7849666ef6f7e27cc391a.jpg",
+    "max_detections": 10
+  },
+
+  "output_settings": {
+    "output_dir": "./output/Trajectory_Analysis_Flight_01",
+    "generate_2d_plot": false,
+    "generate_csv_report": true,
+    "generate_trajectory_plot": true
+  },
+
+  "trajectory_settings": {
+    "enabled": true,
+    "flight_altitude_agl": 1500.0,
+    "path_world": [
+      {"x": 300500, "y": 3994000},
+      {"x": 307000, "y": 3999000}
+    ],
+    "photo_interval_meters": 500,
+    "camera_attitude_deg": {
+      "roll": 0.0,
+      "pitch": 0.0,
+      "yaw": 30.0
+    }
+  },
+
+  "simulation_settings": {
+    "enabled": false,
+    "custom_reference_elevation": 900.0,
+    "reference_elevation_mode": "custom_value",
+    "camera_position_local": [302500, 3997500, 2500],
+    "camera_attitude_deg": {
+      "roll": 0.0,
+      "pitch": -30.0,
+      "yaw": 45.0
+    }
+}
+}

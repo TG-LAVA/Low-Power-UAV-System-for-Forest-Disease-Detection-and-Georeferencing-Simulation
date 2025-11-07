@@ -1,0 +1,16 @@
+﻿# Simulation Results Export
+# Export Time:,2025-10-19 16:35:13
+# Simulation Mode:,single_point
+# Scene:,complex_terrain
+
+## Overall Statistics
+Metric,Value
+Total Points,1
+RMSE (m),62.1960
+Mean Error (m),62.1960
+Max Error (m),62.1960
+Min Error (m),62.1960
+
+## Detailed Results
+Index,Pixel_X,Pixel_Y,True_X,True_Y,True_Z,Planar_X,Planar_Y,Planar_Z,Error_m,Camera_X,Camera_Y,Camera_Z,Waypoint_Index,Source_File
+1,1360,710,302977.769,3997637.044,1356.635,302917.984,3997619.895,1499.716,62.1960,302500.000,3997500.000,2500.000,0,result-1-_png.rf.6ad4c1b9d6211f59f2099e71bd39b746.txt

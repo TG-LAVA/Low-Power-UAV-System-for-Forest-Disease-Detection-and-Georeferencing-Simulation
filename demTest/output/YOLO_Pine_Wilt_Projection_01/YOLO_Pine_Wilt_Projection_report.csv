@@ -1,0 +1,2 @@
+pixel_u,pixel_v,planar_proj_x,planar_proj_y,planar_proj_z (ref),slope_proj_x,slope_proj_y,slope_proj_z (true),error_m
+1360,710,301865.359,3996290.399,900.000,301902.794,3996361.750,994.461,80.575
